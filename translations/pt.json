@@ -1,0 +1,101 @@
+{
+    "Show session strip": {
+        "Show session strip": "Mostrar barra de sessão"
+    },
+    "A slim strip on the chosen edge that slides in on hover.": {
+        "A slim strip on the chosen edge that slides in on hover.": "Uma faixa estreita na borda escolhida que desliza ao passar o ponteiro."
+    },
+    "Edge": {
+        "Edge": "Borda"
+    },
+    "The frame surrounds all four sides, so the strip can dock to any of them. The docking area is widest on the side of the DMS bar.": {
+        "The frame surrounds all four sides, so the strip can dock to any of them. The docking area is widest on the side of the DMS bar.": "A moldura envolve os quatro lados, então a barra pode se acoplar a qualquer um. No lado da barra do DMS a área de acoplamento é mais larga."
+    },
+    "Right": {
+        "Right": "Direita"
+    },
+    "Left": {
+        "Left": "Esquerda"
+    },
+    "Top": {
+        "Top": "Topo"
+    },
+    "Bottom": {
+        "Bottom": "Base"
+    },
+    "Same as the DMS bar": {
+        "Same as the DMS bar": "Igual à barra do DMS"
+    },
+    "Position along the edge": {
+        "Position along the edge": "Posição na borda"
+    },
+    "Center": {
+        "Center": "Centro"
+    },
+    "Start": {
+        "Start": "Início"
+    },
+    "End": {
+        "End": "Fim"
+    },
+    "Offset from start or end": {
+        "Offset from start or end": "Distância do início ou do fim"
+    },
+    "Only applies when the position is not Center.": {
+        "Only applies when the position is not Center.": "Só vale quando a posição não é Centro."
+    },
+    "Idle strip width": {
+        "Idle strip width": "Largura da faixa em repouso"
+    },
+    "Width of the sensitive zone while the strip is hidden. Small enough, it stays inside the frame and takes no space from windows.": {
+        "Width of the sensitive zone while the strip is hidden. Small enough, it stays inside the frame and takes no space from windows.": "Largura da zona sensível enquanto a barra está oculta. Pequena o bastante, fica dentro da moldura e não tira espaço das janelas."
+    },
+    "Length of the sensitive zone": {
+        "Length of the sensitive zone": "Comprimento da zona sensível"
+    },
+    "Only this part of the edge reacts, so the strip does not open every time the pointer passes by.": {
+        "Only this part of the edge reacts, so the strip does not open every time the pointer passes by.": "Só esta parte da borda reage, para que a barra não abra toda vez que o ponteiro passa."
+    },
+    "Button size": {
+        "Button size": "Tamanho dos botões"
+    },
+    "Open delay": {
+        "Open delay": "Atraso ao abrir"
+    },
+    "Keeps the strip from popping up when the pointer only passes by.": {
+        "Keeps the strip from popping up when the pointer only passes by.": "Evita que a barra abra quando o ponteiro apenas passa."
+    },
+    "Close delay": {
+        "Close delay": "Atraso ao fechar"
+    },
+    "Lock": {
+        "Lock": "Bloquear"
+    },
+    "Acts immediately, no hold needed.": {
+        "Acts immediately, no hold needed.": "Age imediatamente, sem segurar."
+    },
+    "Suspend": {
+        "Suspend": "Suspender"
+    },
+    "Hibernate": {
+        "Hibernate": "Hibernar"
+    },
+    "Only shown if the system supports it.": {
+        "Only shown if the system supports it.": "Só aparece se o sistema suportar."
+    },
+    "Log out": {
+        "Log out": "Sair"
+    },
+    "Reboot": {
+        "Reboot": "Reiniciar"
+    },
+    "Power off": {
+        "Power off": "Desligar"
+    },
+    "Restart shell": {
+        "Restart shell": "Reiniciar o shell"
+    },
+    "Restarts DMS. Acts immediately, no hold needed. Note: tray icons of apps that do not re-register stay gone afterwards.": {
+        "Restarts DMS. Acts immediately, no hold needed. Note: tray icons of apps that do not re-register stay gone afterwards.": "Reinicia o DMS. Age imediatamente, sem segurar. Atenção: ícones da bandeja de apps que não se registram novamente somem."
+    }
+}

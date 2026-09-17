@@ -1,0 +1,101 @@
+{
+    "Show session strip": {
+        "Show session strip": "Afficher la barre de session"
+    },
+    "A slim strip on the chosen edge that slides in on hover.": {
+        "A slim strip on the chosen edge that slides in on hover.": "Une bande fine sur le bord choisi qui glisse au survol."
+    },
+    "Edge": {
+        "Edge": "Bord"
+    },
+    "The frame surrounds all four sides, so the strip can dock to any of them. The docking area is widest on the side of the DMS bar.": {
+        "The frame surrounds all four sides, so the strip can dock to any of them. The docking area is widest on the side of the DMS bar.": "Le cadre entoure les quatre côtés, la barre peut donc s’y ancrer de n’importe quel côté. Du côté de la barre DMS, la zone d’ancrage est la plus large."
+    },
+    "Right": {
+        "Right": "Droite"
+    },
+    "Left": {
+        "Left": "Gauche"
+    },
+    "Top": {
+        "Top": "Haut"
+    },
+    "Bottom": {
+        "Bottom": "Bas"
+    },
+    "Same as the DMS bar": {
+        "Same as the DMS bar": "Comme la barre DMS"
+    },
+    "Position along the edge": {
+        "Position along the edge": "Position sur le bord"
+    },
+    "Center": {
+        "Center": "Centre"
+    },
+    "Start": {
+        "Start": "Début"
+    },
+    "End": {
+        "End": "Fin"
+    },
+    "Offset from start or end": {
+        "Offset from start or end": "Décalage depuis le début ou la fin"
+    },
+    "Only applies when the position is not Center.": {
+        "Only applies when the position is not Center.": "S’applique uniquement si la position n’est pas Centre."
+    },
+    "Idle strip width": {
+        "Idle strip width": "Largeur de la bande au repos"
+    },
+    "Width of the sensitive zone while the strip is hidden. Small enough, it stays inside the frame and takes no space from windows.": {
+        "Width of the sensitive zone while the strip is hidden. Small enough, it stays inside the frame and takes no space from windows.": "Largeur de la zone sensible quand la barre est masquée. Assez petite, elle reste dans le cadre et ne prend pas de place aux fenêtres."
+    },
+    "Length of the sensitive zone": {
+        "Length of the sensitive zone": "Longueur de la zone sensible"
+    },
+    "Only this part of the edge reacts, so the strip does not open every time the pointer passes by.": {
+        "Only this part of the edge reacts, so the strip does not open every time the pointer passes by.": "Seule cette partie du bord réagit, pour que la barre ne s’ouvre pas à chaque passage du pointeur."
+    },
+    "Button size": {
+        "Button size": "Taille des boutons"
+    },
+    "Open delay": {
+        "Open delay": "Délai d’ouverture"
+    },
+    "Keeps the strip from popping up when the pointer only passes by.": {
+        "Keeps the strip from popping up when the pointer only passes by.": "Évite que la barre s’ouvre quand le pointeur ne fait que passer."
+    },
+    "Close delay": {
+        "Close delay": "Délai de fermeture"
+    },
+    "Lock": {
+        "Lock": "Verrouiller"
+    },
+    "Acts immediately, no hold needed.": {
+        "Acts immediately, no hold needed.": "Agit immédiatement, sans maintien."
+    },
+    "Suspend": {
+        "Suspend": "Mettre en veille"
+    },
+    "Hibernate": {
+        "Hibernate": "Hiberner"
+    },
+    "Only shown if the system supports it.": {
+        "Only shown if the system supports it.": "Affiché uniquement si le système le prend en charge."
+    },
+    "Log out": {
+        "Log out": "Se déconnecter"
+    },
+    "Reboot": {
+        "Reboot": "Redémarrer"
+    },
+    "Power off": {
+        "Power off": "Éteindre"
+    },
+    "Restart shell": {
+        "Restart shell": "Redémarrer le shell"
+    },
+    "Restarts DMS. Acts immediately, no hold needed. Note: tray icons of apps that do not re-register stay gone afterwards.": {
+        "Restarts DMS. Acts immediately, no hold needed. Note: tray icons of apps that do not re-register stay gone afterwards.": "Redémarre DMS. Agit immédiatement, sans maintien. Attention : les icônes de la zone de notification des applications qui ne se réenregistrent pas disparaissent."
+    }
+}

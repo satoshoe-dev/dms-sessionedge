@@ -1,0 +1,101 @@
+{
+    "Show session strip": {
+        "Show session strip": "Mostra barra di sessione"
+    },
+    "A slim strip on the chosen edge that slides in on hover.": {
+        "A slim strip on the chosen edge that slides in on hover.": "Una striscia sottile sul bordo scelto che scorre fuori al passaggio del puntatore."
+    },
+    "Edge": {
+        "Edge": "Bordo"
+    },
+    "The frame surrounds all four sides, so the strip can dock to any of them. The docking area is widest on the side of the DMS bar.": {
+        "The frame surrounds all four sides, so the strip can dock to any of them. The docking area is widest on the side of the DMS bar.": "La cornice circonda tutti e quattro i lati, quindi la barra può agganciarsi a ognuno. Sul lato della barra DMS la zona di aggancio è più ampia."
+    },
+    "Right": {
+        "Right": "Destra"
+    },
+    "Left": {
+        "Left": "Sinistra"
+    },
+    "Top": {
+        "Top": "In alto"
+    },
+    "Bottom": {
+        "Bottom": "In basso"
+    },
+    "Same as the DMS bar": {
+        "Same as the DMS bar": "Come la barra DMS"
+    },
+    "Position along the edge": {
+        "Position along the edge": "Posizione sul bordo"
+    },
+    "Center": {
+        "Center": "Centro"
+    },
+    "Start": {
+        "Start": "Inizio"
+    },
+    "End": {
+        "End": "Fine"
+    },
+    "Offset from start or end": {
+        "Offset from start or end": "Distanza dall’inizio o dalla fine"
+    },
+    "Only applies when the position is not Center.": {
+        "Only applies when the position is not Center.": "Vale solo se la posizione non è Centro."
+    },
+    "Idle strip width": {
+        "Idle strip width": "Larghezza della striscia a riposo"
+    },
+    "Width of the sensitive zone while the strip is hidden. Small enough, it stays inside the frame and takes no space from windows.": {
+        "Width of the sensitive zone while the strip is hidden. Small enough, it stays inside the frame and takes no space from windows.": "Larghezza della zona sensibile mentre la barra è nascosta. Se è piccola resta nella cornice e non toglie spazio alle finestre."
+    },
+    "Length of the sensitive zone": {
+        "Length of the sensitive zone": "Lunghezza della zona sensibile"
+    },
+    "Only this part of the edge reacts, so the strip does not open every time the pointer passes by.": {
+        "Only this part of the edge reacts, so the strip does not open every time the pointer passes by.": "Reagisce solo questa parte del bordo, così la barra non si apre a ogni passaggio del puntatore."
+    },
+    "Button size": {
+        "Button size": "Dimensione dei pulsanti"
+    },
+    "Open delay": {
+        "Open delay": "Ritardo di apertura"
+    },
+    "Keeps the strip from popping up when the pointer only passes by.": {
+        "Keeps the strip from popping up when the pointer only passes by.": "Evita che la barra si apra quando il puntatore passa soltanto."
+    },
+    "Close delay": {
+        "Close delay": "Ritardo di chiusura"
+    },
+    "Lock": {
+        "Lock": "Blocca"
+    },
+    "Acts immediately, no hold needed.": {
+        "Acts immediately, no hold needed.": "Agisce subito, senza tenere premuto."
+    },
+    "Suspend": {
+        "Suspend": "Sospendi"
+    },
+    "Hibernate": {
+        "Hibernate": "Iberna"
+    },
+    "Only shown if the system supports it.": {
+        "Only shown if the system supports it.": "Mostrato solo se il sistema lo supporta."
+    },
+    "Log out": {
+        "Log out": "Esci"
+    },
+    "Reboot": {
+        "Reboot": "Riavvia"
+    },
+    "Power off": {
+        "Power off": "Spegni"
+    },
+    "Restart shell": {
+        "Restart shell": "Riavvia la shell"
+    },
+    "Restarts DMS. Acts immediately, no hold needed. Note: tray icons of apps that do not re-register stay gone afterwards.": {
+        "Restarts DMS. Acts immediately, no hold needed. Note: tray icons of apps that do not re-register stay gone afterwards.": "Riavvia DMS. Agisce subito, senza tenere premuto. Nota: le icone di sistema delle app che non si registrano di nuovo scompaiono."
+    }
+}

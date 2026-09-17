@@ -1,0 +1,101 @@
+{
+    "Show session strip": {
+        "Show session strip": "Показывать панель сеанса"
+    },
+    "A slim strip on the chosen edge that slides in on hover.": {
+        "A slim strip on the chosen edge that slides in on hover.": "Узкая полоса у выбранного края, которая выезжает при наведении."
+    },
+    "Edge": {
+        "Edge": "Край"
+    },
+    "The frame surrounds all four sides, so the strip can dock to any of them. The docking area is widest on the side of the DMS bar.": {
+        "The frame surrounds all four sides, so the strip can dock to any of them. The docking area is widest on the side of the DMS bar.": "Рамка окружает все четыре стороны, поэтому панель может пристыковаться к любой. Со стороны панели DMS зона стыковки шире всего."
+    },
+    "Right": {
+        "Right": "Справа"
+    },
+    "Left": {
+        "Left": "Слева"
+    },
+    "Top": {
+        "Top": "Сверху"
+    },
+    "Bottom": {
+        "Bottom": "Снизу"
+    },
+    "Same as the DMS bar": {
+        "Same as the DMS bar": "Как панель DMS"
+    },
+    "Position along the edge": {
+        "Position along the edge": "Положение на краю"
+    },
+    "Center": {
+        "Center": "По центру"
+    },
+    "Start": {
+        "Start": "В начале"
+    },
+    "End": {
+        "End": "В конце"
+    },
+    "Offset from start or end": {
+        "Offset from start or end": "Отступ от начала или конца"
+    },
+    "Only applies when the position is not Center.": {
+        "Only applies when the position is not Center.": "Действует, только если положение не «По центру»."
+    },
+    "Idle strip width": {
+        "Idle strip width": "Ширина полосы в покое"
+    },
+    "Width of the sensitive zone while the strip is hidden. Small enough, it stays inside the frame and takes no space from windows.": {
+        "Width of the sensitive zone while the strip is hidden. Small enough, it stays inside the frame and takes no space from windows.": "Ширина чувствительной зоны, пока панель скрыта. Если она небольшая, то остаётся в рамке и не занимает место окон."
+    },
+    "Length of the sensitive zone": {
+        "Length of the sensitive zone": "Длина чувствительной зоны"
+    },
+    "Only this part of the edge reacts, so the strip does not open every time the pointer passes by.": {
+        "Only this part of the edge reacts, so the strip does not open every time the pointer passes by.": "Реагирует только этот участок края, чтобы панель не выезжала при каждом проходе указателя."
+    },
+    "Button size": {
+        "Button size": "Размер кнопок"
+    },
+    "Open delay": {
+        "Open delay": "Задержка открытия"
+    },
+    "Keeps the strip from popping up when the pointer only passes by.": {
+        "Keeps the strip from popping up when the pointer only passes by.": "Не даёт панели выезжать, когда указатель просто проходит мимо."
+    },
+    "Close delay": {
+        "Close delay": "Задержка закрытия"
+    },
+    "Lock": {
+        "Lock": "Заблокировать"
+    },
+    "Acts immediately, no hold needed.": {
+        "Acts immediately, no hold needed.": "Срабатывает сразу, без удержания."
+    },
+    "Suspend": {
+        "Suspend": "Ждущий режим"
+    },
+    "Hibernate": {
+        "Hibernate": "Гибернация"
+    },
+    "Only shown if the system supports it.": {
+        "Only shown if the system supports it.": "Показывается, только если система её поддерживает."
+    },
+    "Log out": {
+        "Log out": "Выйти"
+    },
+    "Reboot": {
+        "Reboot": "Перезагрузить"
+    },
+    "Power off": {
+        "Power off": "Выключить"
+    },
+    "Restart shell": {
+        "Restart shell": "Перезапустить оболочку"
+    },
+    "Restarts DMS. Acts immediately, no hold needed. Note: tray icons of apps that do not re-register stay gone afterwards.": {
+        "Restarts DMS. Acts immediately, no hold needed. Note: tray icons of apps that do not re-register stay gone afterwards.": "Перезапускает DMS. Срабатывает сразу, без удержания. Внимание: значки в трее у приложений, которые не регистрируются заново, пропадут."
+    }
+}

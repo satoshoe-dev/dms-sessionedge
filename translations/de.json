@@ -1,0 +1,101 @@
+{
+    "Show session strip": {
+        "Show session strip": "Sitzungsleiste anzeigen"
+    },
+    "A slim strip on the chosen edge that slides in on hover.": {
+        "A slim strip on the chosen edge that slides in on hover.": "Schmaler Streifen an der gewählten Kante, der beim Überfahren einfährt."
+    },
+    "Edge": {
+        "Edge": "Kante"
+    },
+    "The frame surrounds all four sides, so the strip can dock to any of them. The docking area is widest on the side of the DMS bar.": {
+        "The frame surrounds all four sides, so the strip can dock to any of them. The docking area is widest on the side of the DMS bar.": "Der Rahmen umgibt alle vier Seiten, die Leiste kann sich also an jeder anmelden. An der Seite der DMS-Leiste ist die Anschlussstelle am breitesten."
+    },
+    "Right": {
+        "Right": "Rechts"
+    },
+    "Left": {
+        "Left": "Links"
+    },
+    "Top": {
+        "Top": "Oben"
+    },
+    "Bottom": {
+        "Bottom": "Unten"
+    },
+    "Same as the DMS bar": {
+        "Same as the DMS bar": "Wie die DMS-Leiste"
+    },
+    "Position along the edge": {
+        "Position along the edge": "Lage an der Kante"
+    },
+    "Center": {
+        "Center": "Mitte"
+    },
+    "Start": {
+        "Start": "Anfang"
+    },
+    "End": {
+        "End": "Ende"
+    },
+    "Offset from start or end": {
+        "Offset from start or end": "Abstand vom Anfang bzw. Ende"
+    },
+    "Only applies when the position is not Center.": {
+        "Only applies when the position is not Center.": "Wirkt nur, wenn die Lage nicht auf Mitte steht."
+    },
+    "Idle strip width": {
+        "Idle strip width": "Breite bei eingefahrener Leiste"
+    },
+    "Width of the sensitive zone while the strip is hidden. Small enough, it stays inside the frame and takes no space from windows.": {
+        "Width of the sensitive zone while the strip is hidden. Small enough, it stays inside the frame and takes no space from windows.": "So breit ist die empfindliche Zone, solange die Leiste eingefahren ist. Klein genug bleibt sie im Rahmen und nimmt keinem Fenster Platz."
+    },
+    "Length of the sensitive zone": {
+        "Length of the sensitive zone": "Länge der empfindlichen Zone"
+    },
+    "Only this part of the edge reacts, so the strip does not open every time the pointer passes by.": {
+        "Only this part of the edge reacts, so the strip does not open every time the pointer passes by.": "Nur dieser Ausschnitt der Kante reagiert, sonst führe die Leiste bei jedem Vorbeifahren aus."
+    },
+    "Button size": {
+        "Button size": "Größe der Schaltflächen"
+    },
+    "Open delay": {
+        "Open delay": "Verzögerung beim Ausfahren"
+    },
+    "Keeps the strip from popping up when the pointer only passes by.": {
+        "Keeps the strip from popping up when the pointer only passes by.": "Verhindert, dass die Leiste beim bloßen Vorbeifahren aufspringt."
+    },
+    "Close delay": {
+        "Close delay": "Verzögerung beim Einfahren"
+    },
+    "Lock": {
+        "Lock": "Sperren"
+    },
+    "Acts immediately, no hold needed.": {
+        "Acts immediately, no hold needed.": "Wirkt sofort, ohne Halten."
+    },
+    "Suspend": {
+        "Suspend": "Ruhemodus"
+    },
+    "Hibernate": {
+        "Hibernate": "Ruhezustand"
+    },
+    "Only shown if the system supports it.": {
+        "Only shown if the system supports it.": "Wird nur angezeigt, wenn das System es unterstützt."
+    },
+    "Log out": {
+        "Log out": "Abmelden"
+    },
+    "Reboot": {
+        "Reboot": "Neustart"
+    },
+    "Power off": {
+        "Power off": "Ausschalten"
+    },
+    "Restart shell": {
+        "Restart shell": "Oberfläche neu starten"
+    },
+    "Restarts DMS. Acts immediately, no hold needed. Note: tray icons of apps that do not re-register stay gone afterwards.": {
+        "Restarts DMS. Acts immediately, no hold needed. Note: tray icons of apps that do not re-register stay gone afterwards.": "Startet DMS neu. Wirkt sofort, ohne Halten. Achtung: Tray-Symbole von Programmen, die sich nicht neu anmelden, bleiben danach weg."
+    }
+}

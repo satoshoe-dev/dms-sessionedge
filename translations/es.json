@@ -1,0 +1,101 @@
+{
+    "Show session strip": {
+        "Show session strip": "Mostrar barra de sesión"
+    },
+    "A slim strip on the chosen edge that slides in on hover.": {
+        "A slim strip on the chosen edge that slides in on hover.": "Una franja estrecha en el borde elegido que se desliza al pasar el puntero."
+    },
+    "Edge": {
+        "Edge": "Borde"
+    },
+    "The frame surrounds all four sides, so the strip can dock to any of them. The docking area is widest on the side of the DMS bar.": {
+        "The frame surrounds all four sides, so the strip can dock to any of them. The docking area is widest on the side of the DMS bar.": "El marco rodea los cuatro lados, así que la barra puede acoplarse a cualquiera. En el lado de la barra de DMS la zona de acople es más ancha."
+    },
+    "Right": {
+        "Right": "Derecha"
+    },
+    "Left": {
+        "Left": "Izquierda"
+    },
+    "Top": {
+        "Top": "Arriba"
+    },
+    "Bottom": {
+        "Bottom": "Abajo"
+    },
+    "Same as the DMS bar": {
+        "Same as the DMS bar": "Igual que la barra de DMS"
+    },
+    "Position along the edge": {
+        "Position along the edge": "Posición en el borde"
+    },
+    "Center": {
+        "Center": "Centro"
+    },
+    "Start": {
+        "Start": "Inicio"
+    },
+    "End": {
+        "End": "Final"
+    },
+    "Offset from start or end": {
+        "Offset from start or end": "Distancia desde el inicio o el final"
+    },
+    "Only applies when the position is not Center.": {
+        "Only applies when the position is not Center.": "Solo se aplica si la posición no es Centro."
+    },
+    "Idle strip width": {
+        "Idle strip width": "Ancho de la franja en reposo"
+    },
+    "Width of the sensitive zone while the strip is hidden. Small enough, it stays inside the frame and takes no space from windows.": {
+        "Width of the sensitive zone while the strip is hidden. Small enough, it stays inside the frame and takes no space from windows.": "Ancho de la zona sensible mientras la barra está oculta. Si es pequeña, queda dentro del marco y no quita espacio a las ventanas."
+    },
+    "Length of the sensitive zone": {
+        "Length of the sensitive zone": "Longitud de la zona sensible"
+    },
+    "Only this part of the edge reacts, so the strip does not open every time the pointer passes by.": {
+        "Only this part of the edge reacts, so the strip does not open every time the pointer passes by.": "Solo esta parte del borde reacciona, para que la barra no se abra cada vez que pasa el puntero."
+    },
+    "Button size": {
+        "Button size": "Tamaño de los botones"
+    },
+    "Open delay": {
+        "Open delay": "Retraso al abrir"
+    },
+    "Keeps the strip from popping up when the pointer only passes by.": {
+        "Keeps the strip from popping up when the pointer only passes by.": "Evita que la barra se abra cuando el puntero solo pasa por encima."
+    },
+    "Close delay": {
+        "Close delay": "Retraso al cerrar"
+    },
+    "Lock": {
+        "Lock": "Bloquear"
+    },
+    "Acts immediately, no hold needed.": {
+        "Acts immediately, no hold needed.": "Actúa de inmediato, sin mantener pulsado."
+    },
+    "Suspend": {
+        "Suspend": "Suspender"
+    },
+    "Hibernate": {
+        "Hibernate": "Hibernar"
+    },
+    "Only shown if the system supports it.": {
+        "Only shown if the system supports it.": "Solo se muestra si el sistema lo admite."
+    },
+    "Log out": {
+        "Log out": "Cerrar sesión"
+    },
+    "Reboot": {
+        "Reboot": "Reiniciar"
+    },
+    "Power off": {
+        "Power off": "Apagar"
+    },
+    "Restart shell": {
+        "Restart shell": "Reiniciar el shell"
+    },
+    "Restarts DMS. Acts immediately, no hold needed. Note: tray icons of apps that do not re-register stay gone afterwards.": {
+        "Restarts DMS. Acts immediately, no hold needed. Note: tray icons of apps that do not re-register stay gone afterwards.": "Reinicia DMS. Actúa de inmediato, sin mantener pulsado. Nota: los iconos de bandeja de las aplicaciones que no se vuelven a registrar desaparecen."
+    }
+}

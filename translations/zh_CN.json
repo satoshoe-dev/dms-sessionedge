@@ -1,0 +1,101 @@
+{
+    "Show session strip": {
+        "Show session strip": "显示会话栏"
+    },
+    "A slim strip on the chosen edge that slides in on hover.": {
+        "A slim strip on the chosen edge that slides in on hover.": "在所选屏幕边缘显示一条细条，鼠标悬停时滑出。"
+    },
+    "Edge": {
+        "Edge": "边缘"
+    },
+    "The frame surrounds all four sides, so the strip can dock to any of them. The docking area is widest on the side of the DMS bar.": {
+        "The frame surrounds all four sides, so the strip can dock to any of them. The docking area is widest on the side of the DMS bar.": "框架环绕四条边，因此会话栏可以停靠在任意一边。在 DMS 状态栏所在的一侧，停靠区域最宽。"
+    },
+    "Right": {
+        "Right": "右侧"
+    },
+    "Left": {
+        "Left": "左侧"
+    },
+    "Top": {
+        "Top": "顶部"
+    },
+    "Bottom": {
+        "Bottom": "底部"
+    },
+    "Same as the DMS bar": {
+        "Same as the DMS bar": "与 DMS 状态栏相同"
+    },
+    "Position along the edge": {
+        "Position along the edge": "在边缘上的位置"
+    },
+    "Center": {
+        "Center": "居中"
+    },
+    "Start": {
+        "Start": "开头"
+    },
+    "End": {
+        "End": "末尾"
+    },
+    "Offset from start or end": {
+        "Offset from start or end": "距开头或末尾的偏移"
+    },
+    "Only applies when the position is not Center.": {
+        "Only applies when the position is not Center.": "仅当位置不是“居中”时生效。"
+    },
+    "Idle strip width": {
+        "Idle strip width": "空闲时的细条宽度"
+    },
+    "Width of the sensitive zone while the strip is hidden. Small enough, it stays inside the frame and takes no space from windows.": {
+        "Width of the sensitive zone while the strip is hidden. Small enough, it stays inside the frame and takes no space from windows.": "会话栏隐藏时感应区的宽度。足够小时它留在框架内，不占用窗口空间。"
+    },
+    "Length of the sensitive zone": {
+        "Length of the sensitive zone": "感应区长度"
+    },
+    "Only this part of the edge reacts, so the strip does not open every time the pointer passes by.": {
+        "Only this part of the edge reacts, so the strip does not open every time the pointer passes by.": "只有边缘的这一段会响应，避免指针每次经过都弹出。"
+    },
+    "Button size": {
+        "Button size": "按钮大小"
+    },
+    "Open delay": {
+        "Open delay": "打开延迟"
+    },
+    "Keeps the strip from popping up when the pointer only passes by.": {
+        "Keeps the strip from popping up when the pointer only passes by.": "防止指针只是经过时会话栏弹出。"
+    },
+    "Close delay": {
+        "Close delay": "关闭延迟"
+    },
+    "Lock": {
+        "Lock": "锁定"
+    },
+    "Acts immediately, no hold needed.": {
+        "Acts immediately, no hold needed.": "立即执行，无需长按。"
+    },
+    "Suspend": {
+        "Suspend": "挂起"
+    },
+    "Hibernate": {
+        "Hibernate": "休眠"
+    },
+    "Only shown if the system supports it.": {
+        "Only shown if the system supports it.": "仅在系统支持时显示。"
+    },
+    "Log out": {
+        "Log out": "注销"
+    },
+    "Reboot": {
+        "Reboot": "重启"
+    },
+    "Power off": {
+        "Power off": "关机"
+    },
+    "Restart shell": {
+        "Restart shell": "重启外壳"
+    },
+    "Restarts DMS. Acts immediately, no hold needed. Note: tray icons of apps that do not re-register stay gone afterwards.": {
+        "Restarts DMS. Acts immediately, no hold needed. Note: tray icons of apps that do not re-register stay gone afterwards.": "重启 DMS。立即执行，无需长按。注意：不会重新注册的应用的托盘图标将消失。"
+    }
+}

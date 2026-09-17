@@ -1,0 +1,101 @@
+{
+    "Show session strip": {
+        "Show session strip": "セッションバーを表示"
+    },
+    "A slim strip on the chosen edge that slides in on hover.": {
+        "A slim strip on the chosen edge that slides in on hover.": "選んだ画面端に細い帯を置き、ポインターを合わせるとスライドして現れます。"
+    },
+    "Edge": {
+        "Edge": "端"
+    },
+    "The frame surrounds all four sides, so the strip can dock to any of them. The docking area is widest on the side of the DMS bar.": {
+        "The frame surrounds all four sides, so the strip can dock to any of them. The docking area is widest on the side of the DMS bar.": "フレームは四辺すべてを囲むので、どの辺にも配置できます。DMS バーのある辺では接続部分が最も広くなります。"
+    },
+    "Right": {
+        "Right": "右"
+    },
+    "Left": {
+        "Left": "左"
+    },
+    "Top": {
+        "Top": "上"
+    },
+    "Bottom": {
+        "Bottom": "下"
+    },
+    "Same as the DMS bar": {
+        "Same as the DMS bar": "DMS バーと同じ"
+    },
+    "Position along the edge": {
+        "Position along the edge": "端での位置"
+    },
+    "Center": {
+        "Center": "中央"
+    },
+    "Start": {
+        "Start": "始端"
+    },
+    "End": {
+        "End": "終端"
+    },
+    "Offset from start or end": {
+        "Offset from start or end": "始端または終端からの距離"
+    },
+    "Only applies when the position is not Center.": {
+        "Only applies when the position is not Center.": "位置が「中央」以外のときだけ有効です。"
+    },
+    "Idle strip width": {
+        "Idle strip width": "待機中の帯の幅"
+    },
+    "Width of the sensitive zone while the strip is hidden. Small enough, it stays inside the frame and takes no space from windows.": {
+        "Width of the sensitive zone while the strip is hidden. Small enough, it stays inside the frame and takes no space from windows.": "バーが隠れている間の感知エリアの幅です。小さければフレーム内に収まり、ウィンドウの領域を使いません。"
+    },
+    "Length of the sensitive zone": {
+        "Length of the sensitive zone": "感知エリアの長さ"
+    },
+    "Only this part of the edge reacts, so the strip does not open every time the pointer passes by.": {
+        "Only this part of the edge reacts, so the strip does not open every time the pointer passes by.": "端のこの部分だけが反応するので、ポインターが通り過ぎるたびに開くことはありません。"
+    },
+    "Button size": {
+        "Button size": "ボタンのサイズ"
+    },
+    "Open delay": {
+        "Open delay": "開くまでの遅延"
+    },
+    "Keeps the strip from popping up when the pointer only passes by.": {
+        "Keeps the strip from popping up when the pointer only passes by.": "ポインターが通り過ぎただけでバーが開かないようにします。"
+    },
+    "Close delay": {
+        "Close delay": "閉じるまでの遅延"
+    },
+    "Lock": {
+        "Lock": "ロック"
+    },
+    "Acts immediately, no hold needed.": {
+        "Acts immediately, no hold needed.": "長押し不要で、すぐに実行します。"
+    },
+    "Suspend": {
+        "Suspend": "サスペンド"
+    },
+    "Hibernate": {
+        "Hibernate": "ハイバネート"
+    },
+    "Only shown if the system supports it.": {
+        "Only shown if the system supports it.": "システムが対応している場合のみ表示されます。"
+    },
+    "Log out": {
+        "Log out": "ログアウト"
+    },
+    "Reboot": {
+        "Reboot": "再起動"
+    },
+    "Power off": {
+        "Power off": "電源を切る"
+    },
+    "Restart shell": {
+        "Restart shell": "シェルを再起動"
+    },
+    "Restarts DMS. Acts immediately, no hold needed. Note: tray icons of apps that do not re-register stay gone afterwards.": {
+        "Restarts DMS. Acts immediately, no hold needed. Note: tray icons of apps that do not re-register stay gone afterwards.": "DMS を再起動します。長押し不要で、すぐに実行します。注意: 再登録しないアプリのトレイアイコンは消えたままになります。"
+    }
+}
