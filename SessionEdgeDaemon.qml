@@ -1,9 +1,9 @@
 // SessionEdge: session actions in a slim strip that slides in from a screen edge.
 //
 // The strip is a DankPopout, not a layer window of its own. In connected frame
-// mode a DankPopout registers with the frame (ConnectedModeState), so the frame
-// draws its surface: shared outline, shared glass tone, shared slide motion.
-// A separate window can only imitate the colors and never lines up.
+// mode a DankPopout registers with the frame (ConnectedModeState), and the frame
+// draws its surface with the same outline, tone and slide motion as the other
+// popouts. A separate window could only imitate the colors and never lined up.
 //
 // What remains of a window is an invisible hover sensor along the edge.
 
@@ -175,14 +175,13 @@ Item {
         }
     }
 
-    // ------------------------------------------------------------------ hold state
-    // The sensor and the DMS frame are both on the Top layer, and niri stacks
-    // them in map order. When the frame surface is created again (a profile
-    // with the frame off and back, a bar change), it lands above the sensor and
-    // takes the pointer: the strip no longer opened on hover (19.09.2026).
-    // Unmap and map the sensor after such changes, and once after start, so it
-    // is on top again. Moving it to the Overlay layer instead would put it
-    // above fullscreen windows too.
+    // ------------------------------------------------------------------ sensor stacking
+    // Sensor and DMS frame are both on the Top layer, stacked in map order. When
+    // DMS creates the frame surface again (frame switched off and on, bar
+    // changes), it ends up above the sensor and gets the pointer events. The
+    // sensor is unmapped and mapped again after such changes and once after
+    // start. The Overlay layer would avoid this, but then the sensor would also
+    // sit above fullscreen windows.
     property bool remapping: false
     function scheduleRemap() {
         remapTimer.restart();
@@ -219,6 +218,7 @@ Item {
         }
     }
 
+    // ------------------------------------------------------------------ hold state
     property string holdAction: ""
     property real holdProgress: 0
 
