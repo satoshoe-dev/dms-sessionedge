@@ -243,10 +243,19 @@ Item {
         }
     }
 
+    // Where the pointer is. The timer only closes when it is on none of them:
+    // resting on a button or on the frame at the edge (the sensor) keeps the
+    // strip open.
+    property bool overPopout: false
+    property bool overButton: false
+    property bool overSensor: false
+
     Timer {
         id: closeTimer
         interval: daemon.closeDelay
         onTriggered: {
+            if (daemon.overPopout || daemon.overButton || daemon.overSensor || daemon.holdAction !== "")
+                return;
             daemon.cancelHold();
             popout.close();
         }
@@ -299,7 +308,10 @@ Item {
         layerNamespace: "dms:plugins:sessionEdge"
         popupWidth: daemon.vertical ? daemon.popoutThickness : daemon.popoutLength
         popupHeight: daemon.vertical ? daemon.popoutLength : daemon.popoutThickness
-        hoverDismissEnabled: true
+        // Off: the DMS hover dismiss only counts the popout and the bar, not the
+        // frame at the edge, and closed the strip while the pointer rested on a
+        // button. closeTimer above decides instead.
+        hoverDismissEnabled: false
 
         // Required while backgroundInteractive is on (the default): the popout
         // adds a full-screen catcher that would otherwise swallow every click.
@@ -308,7 +320,11 @@ Item {
             popout.close();
         }
 
-        onPopoutClosed: daemon.cancelHold()
+        onPopoutClosed: {
+            daemon.cancelHold();
+            daemon.overPopout = false;
+            daemon.overButton = false;
+        }
 
         content: Component {
             Item {
@@ -318,8 +334,14 @@ Item {
                     anchors.fill: parent
                     hoverEnabled: true
                     acceptedButtons: Qt.NoButton
-                    onEntered: closeTimer.stop()
-                    onExited: closeTimer.restart()
+                    onEntered: {
+                        daemon.overPopout = true;
+                        closeTimer.stop();
+                    }
+                    onExited: {
+                        daemon.overPopout = false;
+                        closeTimer.restart();
+                    }
                 }
 
                 Grid {
@@ -390,8 +412,15 @@ Item {
                                 hoverEnabled: true
                                 cursorShape: Qt.PointingHandCursor
 
-                                onEntered: closeTimer.stop()
-                                onExited: daemon.cancelHold()
+                                onEntered: {
+                                    daemon.overButton = true;
+                                    closeTimer.stop();
+                                }
+                                onExited: {
+                                    daemon.overButton = false;
+                                    daemon.cancelHold();
+                                    closeTimer.restart();
+                                }
                                 onPressed: {
                                     if (!button.modelData.hold) {
                                         daemon.run(button.modelData.key);
@@ -463,10 +492,12 @@ Item {
                 acceptedButtons: Qt.NoButton
 
                 onEntered: {
+                    daemon.overSensor = true;
                     closeTimer.stop();
                     openTimer.restart();
                 }
                 onExited: {
+                    daemon.overSensor = false;
                     openTimer.stop();
                     closeTimer.restart();
                 }
