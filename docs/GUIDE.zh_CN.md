@@ -7,7 +7,7 @@
 将仓库克隆到 DMS 插件目录：
 
 ```sh
-git clone https://github.com/21Rebel/dms-sessionedge ~/.config/DankMaterialShell/plugins/SessionEdge
+git clone https://github.com/satoshoe-dev/dms-sessionedge ~/.config/DankMaterialShell/plugins/SessionEdge
 ```
 
 ## 2. 启用插件

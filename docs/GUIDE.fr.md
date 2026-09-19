@@ -7,7 +7,7 @@
 Clonez le dépôt dans votre dossier de plugins DMS :
 
 ```sh
-git clone https://github.com/21Rebel/dms-sessionedge ~/.config/DankMaterialShell/plugins/SessionEdge
+git clone https://github.com/satoshoe-dev/dms-sessionedge ~/.config/DankMaterialShell/plugins/SessionEdge
 ```
 
 ## 2. L’activer

@@ -25,7 +25,7 @@ DankMaterialShell 1.6.1 或更高版本。它应该能在 DMS 支持的所有合
 ## 安装
 
 ```sh
-git clone https://github.com/21Rebel/dms-sessionedge ~/.config/DankMaterialShell/plugins/SessionEdge
+git clone https://github.com/satoshoe-dev/dms-sessionedge ~/.config/DankMaterialShell/plugins/SessionEdge
 dms ipc call plugins enable sessionEdge
 ```
 
