@@ -176,6 +176,49 @@ Item {
     }
 
     // ------------------------------------------------------------------ hold state
+    // The sensor and the DMS frame are both on the Top layer, and niri stacks
+    // them in map order. When the frame surface is created again (a profile
+    // with the frame off and back, a bar change), it lands above the sensor and
+    // takes the pointer: the strip no longer opened on hover (19.09.2026).
+    // Unmap and map the sensor after such changes, and once after start, so it
+    // is on top again. Moving it to the Overlay layer instead would put it
+    // above fullscreen windows too.
+    property bool remapping: false
+    function scheduleRemap() {
+        remapTimer.restart();
+    }
+    Timer {
+        id: remapTimer
+        interval: 600
+        onTriggered: {
+            daemon.remapping = true;
+            remapBack.restart();
+        }
+    }
+    // a short gap, so Qt really unmaps before mapping again
+    Timer {
+        id: remapBack
+        interval: 80
+        onTriggered: daemon.remapping = false
+    }
+    Timer {
+        interval: 3000
+        running: true
+        onTriggered: daemon.scheduleRemap()
+    }
+    Connections {
+        target: SettingsData
+        function onFrameEnabledChanged() {
+            daemon.scheduleRemap();
+        }
+        function onFrameModeChanged() {
+            daemon.scheduleRemap();
+        }
+        function onBarConfigsChanged() {
+            daemon.scheduleRemap();
+        }
+    }
+
     property string holdAction: ""
     property real holdProgress: 0
 
@@ -381,7 +424,7 @@ Item {
             readonly property real center: daemon.sensorCenter(daemon.vertical ? sensor.screen.height : sensor.screen.width)
 
             screen: sensor.modelData
-            visible: daemon.enabled && daemon.actions.length > 0
+            visible: daemon.enabled && daemon.actions.length > 0 && !daemon.remapping
             color: "transparent"
 
             WlrLayershell.namespace: "sessionedge-sensor"
