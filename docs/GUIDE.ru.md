@@ -4,7 +4,13 @@
 
 ## 1. Установите плагин
 
-Клонируйте репозиторий в папку плагинов DMS:
+Из реестра плагинов:
+
+```sh
+dms plugins install sessionEdge
+```
+
+Или клонируйте репозиторий в папку плагинов DMS:
 
 ```sh
 git clone https://github.com/satoshoe-dev/dms-sessionedge ~/.config/DankMaterialShell/plugins/SessionEdge

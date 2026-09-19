@@ -24,6 +24,15 @@ DankMaterialShell 1.6.1 oder neuer. Es sollte mit jedem Compositor laufen, den D
 
 ## Installation
 
+Aus der Plugin-Registry:
+
+```sh
+dms plugins install sessionEdge
+dms ipc call plugins enable sessionEdge
+```
+
+Das Plugin steht auch in DMS unter Einstellungen → Plugins → Durchsuchen. Oder direkt aus dem Repository:
+
 ```sh
 git clone https://github.com/satoshoe-dev/dms-sessionedge ~/.config/DankMaterialShell/plugins/SessionEdge
 dms ipc call plugins enable sessionEdge

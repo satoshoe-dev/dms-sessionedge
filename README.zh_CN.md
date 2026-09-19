@@ -24,6 +24,15 @@ DankMaterialShell 1.6.1 或更高版本。它应该能在 DMS 支持的所有合
 
 ## 安装
 
+从插件注册表安装：
+
+```sh
+dms plugins install sessionEdge
+dms ipc call plugins enable sessionEdge
+```
+
+也可以在 DMS 的 设置 → 插件 → 浏览 中找到它。若要从仓库安装：
+
 ```sh
 git clone https://github.com/satoshoe-dev/dms-sessionedge ~/.config/DankMaterialShell/plugins/SessionEdge
 dms ipc call plugins enable sessionEdge

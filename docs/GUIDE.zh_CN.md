@@ -4,7 +4,13 @@
 
 ## 1. 安装插件
 
-将仓库克隆到 DMS 插件目录：
+从插件注册表安装：
+
+```sh
+dms plugins install sessionEdge
+```
+
+或者将仓库克隆到 DMS 插件目录：
 
 ```sh
 git clone https://github.com/satoshoe-dev/dms-sessionedge ~/.config/DankMaterialShell/plugins/SessionEdge

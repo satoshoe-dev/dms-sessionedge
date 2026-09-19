@@ -4,7 +4,13 @@
 
 ## 1. プラグインをインストールする
 
-リポジトリを DMS のプラグインフォルダーにクローンします。
+プラグインレジストリから:
+
+```sh
+dms plugins install sessionEdge
+```
+
+または、リポジトリを DMS のプラグインフォルダーにクローンします。
 
 ```sh
 git clone https://github.com/satoshoe-dev/dms-sessionedge ~/.config/DankMaterialShell/plugins/SessionEdge

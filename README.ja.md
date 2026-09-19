@@ -24,6 +24,15 @@ DankMaterialShell 1.6.1 以降。DMS が対応するすべてのコンポジタ�
 
 ## インストール
 
+プラグインレジストリから:
+
+```sh
+dms plugins install sessionEdge
+dms ipc call plugins enable sessionEdge
+```
+
+DMS の 設定 → プラグイン → ブラウズ からも入手できます。リポジトリから直接入れる場合:
+
 ```sh
 git clone https://github.com/satoshoe-dev/dms-sessionedge ~/.config/DankMaterialShell/plugins/SessionEdge
 dms ipc call plugins enable sessionEdge

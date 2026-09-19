@@ -24,6 +24,15 @@ DankMaterialShell 1.6.1 или новее. Должно работать на в
 
 ## Установка
 
+Из реестра плагинов:
+
+```sh
+dms plugins install sessionEdge
+dms ipc call plugins enable sessionEdge
+```
+
+Плагин также есть в каталоге DMS: Настройки → Дополнения. Установка из репозитория:
+
 ```sh
 git clone https://github.com/satoshoe-dev/dms-sessionedge ~/.config/DankMaterialShell/plugins/SessionEdge
 dms ipc call plugins enable sessionEdge

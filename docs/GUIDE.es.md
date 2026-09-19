@@ -4,7 +4,13 @@
 
 ## 1. Instala el complemento
 
-Clona el repositorio en tu carpeta de complementos de DMS:
+Desde el registro de complementos:
+
+```sh
+dms plugins install sessionEdge
+```
+
+O clona el repositorio en tu carpeta de complementos de DMS:
 
 ```sh
 git clone https://github.com/satoshoe-dev/dms-sessionedge ~/.config/DankMaterialShell/plugins/SessionEdge

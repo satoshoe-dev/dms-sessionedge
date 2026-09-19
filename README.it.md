@@ -24,6 +24,15 @@ DankMaterialShell 1.6.1 o successivo. Dovrebbe funzionare con tutti i compositor
 
 ## Installazione
 
+Dal registro dei plugin:
+
+```sh
+dms plugins install sessionEdge
+dms ipc call plugins enable sessionEdge
+```
+
+Si trova anche in DMS in Impostazioni → Plugin → Sfoglia. Per installarlo dal repository:
+
 ```sh
 git clone https://github.com/satoshoe-dev/dms-sessionedge ~/.config/DankMaterialShell/plugins/SessionEdge
 dms ipc call plugins enable sessionEdge
