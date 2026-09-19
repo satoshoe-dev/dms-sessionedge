@@ -38,7 +38,7 @@ Solo reacciona un tramo corto del borde (220 px por defecto), así la franja no 
 
 Bloquear y «Reiniciar el shell» se ejecutan con un clic. Suspender, hibernar, cerrar sesión, reiniciar y apagar requieren hacer clic y mantener pulsado. El botón se llena mientras lo mantienes.
 
-![Manteniendo pulsado el botón de apagar](images/04-hold.png)
+![Manteniendo pulsado el botón «Cerrar sesión»](images/04-hold.png)
 
 Suelta antes para cancelar.
 

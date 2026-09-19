@@ -38,7 +38,7 @@ Only a short part of the edge reacts (220 px by default), so the strip does not 
 
 Lock and "Restart shell" run on click. Suspend, hibernate, log out, reboot and power off need a click and hold. The button fills up while you hold it.
 
-![Holding the power off button](images/04-hold.png)
+![Holding the log out button](images/04-hold.png)
 
 Release early to cancel.
 

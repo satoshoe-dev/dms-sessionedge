@@ -38,7 +38,7 @@ git clone https://github.com/21Rebel/dms-sessionedge ~/.config/DankMaterialShell
 
 锁定和“重启外壳”单击即可执行。挂起、休眠、注销、重启和关机需要点击并按住。按住期间按钮会逐渐填满。
 
-![按住关机按钮](images/04-hold.png)
+![按住“注销”按钮](images/04-hold.png)
 
 提前松开即可取消。
 

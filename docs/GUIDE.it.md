@@ -38,7 +38,7 @@ Reagisce solo un breve tratto del bordo (220 px di default), così la striscia n
 
 Blocca e «Riavvia la shell» agiscono con un clic. Sospendi, iberna, esci, riavvia e spegni richiedono di fare clic e tenere premuto. Il pulsante si riempie mentre tieni premuto.
 
-![Pulsante di spegnimento tenuto premuto](images/04-hold.png)
+![Pulsante «Esci» tenuto premuto](images/04-hold.png)
 
 Rilascia prima per annullare.
 

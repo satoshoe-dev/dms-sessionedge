@@ -38,7 +38,7 @@ Só um trecho curto da borda reage (220 px por padrão), então a faixa não abr
 
 Bloquear e “Reiniciar o shell” funcionam com um clique. Suspender, hibernar, sair, reiniciar e desligar exigem clicar e segurar. O botão vai se preenchendo enquanto você segura.
 
-![Segurando o botão de desligar](images/04-hold.png)
+![Segurando o botão «Sair»](images/04-hold.png)
 
 Solte antes para cancelar.
 

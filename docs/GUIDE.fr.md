@@ -38,7 +38,7 @@ Seule une courte partie du bord réagit (220 px par défaut), la bande ne s’ou
 
 Verrouiller et « Redémarrer le shell » s’exécutent d’un clic. Mettre en veille, hiberner, se déconnecter, redémarrer et éteindre demandent un clic maintenu. Le bouton se remplit pendant que vous maintenez.
 
-![Maintien du bouton Éteindre](images/04-hold.png)
+![Maintien du bouton « Se déconnecter »](images/04-hold.png)
 
 Relâchez avant la fin pour annuler.
 

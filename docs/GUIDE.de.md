@@ -38,7 +38,7 @@ Nur ein kurzes Stück der Kante reagiert (standardmäßig 220 px), damit die Lei
 
 Sperren und „Oberfläche neu starten“ wirken per Klick. Ruhemodus, Ruhezustand, Abmelden, Neustart und Ausschalten brauchen Klicken und Halten. Die Schaltfläche füllt sich, während du hältst.
 
-![Schaltfläche zum Ausschalten wird gehalten](images/04-hold.png)
+![Schaltfläche „Abmelden“ wird gehalten](images/04-hold.png)
 
 Lass vorher los, um abzubrechen.
 
