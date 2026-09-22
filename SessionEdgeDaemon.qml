@@ -20,6 +20,10 @@ import qs.Widgets
 Item {
     id: daemon
 
+    // set by the plugin loader
+    property var pluginService: null
+    property string pluginId: "sessionEdge"
+
     readonly property var _settings: SettingsData.pluginSettings
 
     function cfg(key, fallback) {
