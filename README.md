@@ -20,7 +20,7 @@ Suspend, hibernate, log out, reboot and power off need a click and hold, with th
 
 ## Requirements
 
-DankMaterialShell 1.6.1 or newer. It should work on every compositor DMS supports. I use it on niri.
+DankMaterialShell 1.6.1 or newer, tested with 1.6.2 and 2.0.0. It should work on every compositor DMS supports. I use it on niri.
 
 ## Installation
 
